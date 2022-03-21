@@ -1,0 +1,1 @@
+Readme projektu cw_praca_z_kodem
