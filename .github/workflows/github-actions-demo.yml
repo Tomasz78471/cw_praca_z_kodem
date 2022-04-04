@@ -1,0 +1,11 @@
+name: Github actions demo
+on: [push]
+jobs:
+    Test-github-actions:
+        runs-on: ubuntu-latest
+        steps:
+            - run: python --version
+            - run: docker --version
+            - run: pylint app.py
+            - name: Check out repository code
+              uses: actions/checkout@v3
