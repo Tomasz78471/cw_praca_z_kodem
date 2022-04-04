@@ -1,3 +1,0 @@
-make:
-	pip install -r requirements
-	flask run
